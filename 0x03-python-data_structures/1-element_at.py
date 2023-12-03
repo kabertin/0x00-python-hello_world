@@ -4,5 +4,4 @@ def element_at(my_list, idx):
         return
     elif idx >= len(my_list):
         return
-    else:
-        print("{:d}".format(my_list[idx]))
+    return my_list[idx]
